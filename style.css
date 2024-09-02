@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #171717;
+}
+#navbar {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+}
+
+#name {
+  color: #295f98;
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#header-main {
+  margin-bottom: 10px;
+}
+
+#contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+#contact-main {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#contact-title {
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  color: #295f98;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#contact-form {
+  padding: 24px;
+  background-color: #262626;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+#input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#label {
+  color: #295f98;
+  font-family: 'poppins', sans-serif;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+#inputNameForm {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #262626;
+  border: 2px solid;
+  border-color: #295f98;
+}
+
+#inputNameForm:focus {
+  background-color: white;
+}
+
+#inputNimForm {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #262626;
+  border: 2px solid;
+  border-color: #295f98;
+}
+
+#inputNimForm:focus {
+  background-color: white;
+}
+
+#kelas {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #262626;
+  font-family: 'poppins', sans-serif;
+  color: #295f98;
+  border: 2px solid;
+  border-color: #295f98;
+}
+
+#inputKelasForm:focus {
+  background-color: white;
+}
+
+#inputGender {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'poppins', sans-serif;
+}
+
+#gender {
+  width: 100%;
+  font-size: medium;
+  color: #295f98;
+}
+
+#radioFemale {
+  margin-left: 20px;
+}
+
+#inputEmailForm {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #262626;
+  border: 2px solid;
+  border-color: #295f98;
+}
+
+#inputEmailForm:focus {
+  background-color: white;
+}
+
+#inputPesan {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+#Message {
+  max-width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #262626;
+  border: 2px solid;
+  border-color: #295f98;
+  font-family: 'poppins', sans-serif;
+}
+
+#Message:focus {
+  background-color: white;
+}
+
+#btn-submit {
+  color: white;
+  margin-top: 24px;
+  background-color: #295f98;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+#btn-submit:hover {
+  background-color: #36587c;
+  scale: 95%;
+  transition: 0.3s ease;
+}
+
+@media (min-width: 640px) {
+  #contact-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  #contact-form {
+    margin: 0px 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact-form {
+    margin: 0px 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #contact-form {
+    margin: 0px 300px;
+  }
+}
+
+#footer {
+  background-color: #171717;
+  border-top: 1px solid #295f98;
+}
+#footer-main {
+  width: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 1280px;
+  padding: 8px;
+}
+#footer-text {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #6b7280;
+}
+
+@media (min-width: 640px) {
+  #footer-text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

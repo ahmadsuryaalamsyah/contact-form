@@ -64,6 +64,17 @@
           </div>
         </div>
       </section>
+        <section>
+         <h2 id="contact-title">Contact Social Media</h2>
+         <div id="medsos" style="display: flex; justify-content: center; align-items: center; gap: 30px; margin-bottom: 20px;">
+          <a style="border: 2px solid #295f98; border-radius: 8px;" href="https://id.linkedin.com/in/ahmad-surya-alam-syah-5017451b3" target="_blank">
+             <img style="width: 80px; margin-top: 10px;" id="linkedin" src="img/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a style="border: 2px solid #295f98; border-radius: 8px;" href="https://github.com/ahmadsuryaalamsyah" target="_blank">
+           <img style="width: 80px; margin-top: 10px;" id="github" src="img/github.png" alt="GitHub" />
+          </a>
+         </div>
+      </section>
     </main>
     <footer id="footer">
       <div id="footer-main">
